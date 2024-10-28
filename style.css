@@ -1,0 +1,108 @@
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+body
+{
+  background-color: #DDD8C4;
+  color: #69A297;
+  font-family: "Danfo", serif;
+  font-size: 16px;
+}
+
+h1, h2, h3
+{
+  color: #69A297;
+  font-family: "DynaPuff", system-ui;
+  font-size: 32px;
+  font-weight: 100;
+  line-height: 2;
+}
+
+a
+{
+  color: #A3C9A8;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #50808E;
+}
+
+.button
+{
+  background-color: #320D6D;
+  display: inline-block;
+  width: 200px;
+  padding: 20px;
+  border-radius: 20px;
+  height: 30px;
+}
+
+.button:hover
+{
+  color: #320D6D;
+  background-color: #50808E;
+  box-shadow: 10px 5px 5px #CFD11A;
+}
+
+#button-under-picture
+{
+  margin-top: 30px;
+}
+
+.list-inline
+{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+#social-media
+{
+  font-size: 40px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background: #FF715B;
+  padding: 40px;
+  border: 10px dashed #523F38;
+  border-radius: 16px;
+  box-shadow: 10px 5px 5px #CFD11A;
+  margin-top: 40px;
+}
+
+.container {
+  width: 600px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
